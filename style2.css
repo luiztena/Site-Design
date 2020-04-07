@@ -1,0 +1,221 @@
+@charset "utf-8";
+@font-face{
+  font-family:'fonte-logo' ;
+  src: url("fonts/SiliconeHollow.ttf");
+}
+@font-face{
+  font-family: 'titulo';
+  src: url("fonts/spacerangertitleital.ttf");
+}
+@font-face{
+  font-family: 'paragrafo';
+  src: url("fonts/Roboto-Regular.ttf");
+}
+@font-face{
+    font-family: 'aside';
+    src: url("fonts/space\ age.ttf");
+}
+/*----------------MENU---------------*/
+
+li a:hover:not(.active) {
+  border: 1px solid #bf40bf;
+  background-color: #800080;
+  transition: 2s step-end;
+  transition-duration: 1s;
+  transition: .5s;
+  display: block;
+  
+}
+
+.active {
+  font-weight: 500;
+}
+li {
+  text-align: center;
+}
+
+/*Carousel*/
+img#img1{
+  height: 500px;
+}
+img#img2{
+  height: 500px;
+}
+img#img3{
+  height: 500px;
+}
+img#img4{
+  height: 500px;
+}
+img#img5{
+  height: 500px;
+}
+img#img6{
+  height: 500px;
+}
+/*formatação de texto*/
+h4{
+  text-shadow: 1px 1px 2px black, 0 0 1em blue, 0 0 0.2em blue;
+  font-family: 'titulo';
+}
+h4:hover {
+  text-decoration: underline;
+  cursor: default;
+}
+
+h4 p{
+  text-shadow: 1px 1px 2px black, 0 0 1em blue, 0 0 0.2em blue;
+  font-family: 'titulo';
+}
+
+h5{
+  text-shadow: 1px 1px 2px black, 0 0 1em yellow, 0 0 0.2em yellow;
+  font-family: 'aside';
+  float: left;
+}
+h5:hover{
+  text-decoration: underline;
+  cursor: default;
+}
+
+
+h4#h4-2{
+  text-shadow: 1px 1px 2px black, 0 0 1em gold, 0 0 0.2em gold;
+  font-family: 'titulo';
+}
+
+h4#h4-3{
+  text-shadow: 1px 1px 2px black, 0 0 1em purple, 0 0 0.2em purple;
+  font-family: 'titulo';
+}
+
+h4#h4-4{
+  color: black;
+  text-shadow: 1px 1px 2px rgb(255, 255, 255), 0 0 1em palevioletred, 0 0 0.2em palevioletred;
+  font-family: 'titulo';
+}
+
+h4#h4-5{
+  color: seashell;
+  text-shadow: 1px 1px 2px black, 0 0 1em slateblue, 0 0 0.2em slateblue;
+  font-family: 'titulo';
+}
+
+h4#h4-6{
+  color: aqua;
+  text-shadow: 1px 1px 2px black, 0 0 1em rgb(0, 155, 155) 0 0 0.2em rgb(0, 55, 55);
+  font-family: 'titulo';
+}
+
+h5#h5-2{
+  color: black;
+  text-shadow: 1px 1px 2px white, 0 0 1em palevioletred, 0 0 0.2em palevioletred;
+  font-family: 'aside';
+  float: left;
+}
+
+h5#h5-3{
+  color: white;
+  text-shadow: 1px 1px 2px black, 0 0 1em aqua, 0 0 0.2em aqua;
+  font-family: 'aside';
+  float: left;
+}
+/*Section*/
+section p {
+  text-align: justify;
+  margin-left: 10%;
+  margin-right: 10%;
+  text-align: 5%;
+}
+
+section h2 {
+  text-align: center;
+  margin: 2%;
+  font-family: 'titulo';
+  color: black;
+  text-shadow: 1px 1px 2px white, 0 0 1em purple, 0 0 0.2em purple;
+}
+section h3 {
+  text-align: center;
+  margin: 2%;
+  font-family: 'aside';
+  color: black;
+  text-shadow: 1px 1px 2px whitesmoke,0 0 1em lightgrey, 0 0 2em gray, 0 0 0.3em darkgray;
+}
+
+  /*Imagem do section*/
+figure#fotolegenda figcaption {
+
+  text-shadow: 1px 1px 2px rgb(255, 255, 255), 0 0 1em grey, 0 0 0.2em darkgray;
+}
+
+figure#fotolegenda h3 {
+  font-family: 'aside';
+  font-size: 25pt;
+  color: black;
+}
+/*Rodapé*/
+footer#rodape{
+  background-color: #333;
+  text-align: center;
+  margin-top: 50px;
+}
+
+footer a {
+  color: rgb(150, 185, 195);
+  text-decoration: none;
+  position: relative;
+  top: -10px;
+}
+
+footer a:hover{
+  color: crimson;
+  text-decoration: underline;
+}
+
+
+/*Video */
+
+div#video p {
+  text-align: center;
+}
+p#titulo-video{
+  text-align: center;
+  font-size: 15pt;
+  padding: 5px;
+}
+h5#modaltitulo{
+  text-decoration: none;
+  color: black;
+  text-shadow: 1px 1px 2px white;
+  font-family: 'titulo';
+  font-size: 11pt;
+  border-style: solid;
+  border-color: #333;
+  border-width: 2px;
+  background-color: rgba(0, 0, 0, 0.15);
+  padding: 2px;
+  box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.5);
+  margin-left: 15px;
+}
+
+a#formulariop{
+  text-decoration: none;
+}
+div#senha{
+  padding-top: 12px;
+}
+div#data{
+  margin-left: -16px;
+  padding-right: 200px;
+}
+button#button1{
+  margin-right: 10px;
+}
+button#button2{
+  margin-left: 5px;
+  margin-right: 10px;
+}
+button#button3{
+  margin-left: 3px;
+}
