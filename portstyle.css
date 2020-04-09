@@ -38,98 +38,45 @@ li {
   text-align: center;
 }
 
-/*Carousel*/
-img#img1{
-  height: 500px;
-}
-img#img2{
-  height: 500px;
-}
-img#img3{
-  height: 500px;
-}
-img#img4{
-  height: 500px;
-}
-img#img5{
-  height: 500px;
-}
-img#img6{
-  height: 500px;
-}
-/*formatação de texto*/
-h4{
-  text-shadow: 1px 1px 2px black, 0 0 1em blue, 0 0 0.2em blue;
-  font-family: 'titulo';
-}
-h4:hover {
-  text-decoration: underline;
-  cursor: default;
-}
 
-h4 p{
-  text-shadow: 1px 1px 2px black, 0 0 1em blue, 0 0 0.2em blue;
-  font-family: 'titulo';
-}
-
-h5{
-  text-shadow: 1px 1px 2px black, 0 0 1em yellow, 0 0 0.2em yellow;
-  font-family: 'aside';
-  float: left;
-}
-h5:hover{
-  text-decoration: underline;
-  cursor: default;
-}
-
-
-h4#h4-2{
-  text-shadow: 1px 1px 2px black, 0 0 1em gold, 0 0 0.2em gold;
-  font-family: 'titulo';
-}
-
-h4#h4-3{
-  text-shadow: 1px 1px 2px black, 0 0 1em purple, 0 0 0.2em purple;
-  font-family: 'titulo';
-}
-
-h4#h4-4{
-  color: black;
-  text-shadow: 1px 1px 2px rgb(255, 255, 255), 0 0 1em palevioletred, 0 0 0.2em palevioletred;
-  font-family: 'titulo';
-}
-
-h4#h4-5{
-  color: seashell;
-  text-shadow: 1px 1px 2px black, 0 0 1em slateblue, 0 0 0.2em slateblue;
-  font-family: 'titulo';
-}
-
-h4#h4-6{
-  color: aqua;
-  text-shadow: 1px 1px 2px black, 0 0 1em rgb(0, 155, 155) 0 0 0.2em rgb(0, 55, 55);
-  font-family: 'titulo';
-}
-
-h5#h5-2{
-  color: black;
-  text-shadow: 1px 1px 2px white, 0 0 1em palevioletred, 0 0 0.2em palevioletred;
-  font-family: 'aside';
-  float: left;
-}
-
-h5#h5-3{
-  color: white;
-  text-shadow: 1px 1px 2px black, 0 0 1em aqua, 0 0 0.2em aqua;
-  font-family: 'aside';
-  float: left;
-}
 /*Section*/
+
+section{
+  width: 100%;
+  padding: 50px;
+}
+img#eu {
+  margin-right: 10%;
+  float: right;
+  padding-left: 5px;
+}
+img#eu2 {
+  margin-left: 10%;
+  height: 250px;
+  float: left;
+  padding-right: 5px;
+}
+img#eu3 {
+  margin-left: 10%;
+  height: 300px;
+  float: left;
+  padding-right: 5px;
+}
+img#tumblr {
+  height: 250px;
+  padding-right: 5px;
+}
+
+h1{
+  text-align: center;
+
+}
 section p {
   text-align: justify;
   margin-left: 10%;
   margin-right: 10%;
   text-align: 5%;
+
 }
 
 section h2 {
@@ -138,25 +85,28 @@ section h2 {
   font-family: 'Lucida Sans';
   font-size: 30pt;
 }
-section h3 {
-  text-align: center;
-  margin: 2%;
-  font-family: 'aside';
-  color: black;
-  text-shadow: 1px 1px 2px whitesmoke,0 0 1em lightgrey, 0 0 2em gray, 0 0 0.3em darkgray;
+.container {
+  margin-top: 10%;
+  height: 200px;
+  width: 100%
 }
 
-  /*Imagem do section*/
-figure#fotolegenda figcaption {
-
-  text-shadow: 1px 1px 2px rgb(255, 255, 255), 0 0 1em grey, 0 0 0.2em darkgray;
+.container {
+  align-items: center;
+  background: aliceblue;
+  background-size: cover;
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: center
 }
 
-figure#fotolegenda h3 {
-  font-family: 'aside';
-  font-size: 25pt;
-  color: black;
+input {margin-top: 10% }
+
+@media screen and (max-width: 480px) {
+  h1, h4 { text-align: center }
 }
+
+
 /*Rodapé*/
 footer#rodape{
   background-color: #333;
@@ -165,28 +115,19 @@ footer#rodape{
 }
 
 footer a {
-  color: rgb(150, 185, 195);
+  color: rgba(0, 0, 0, 0.8);
   text-decoration: none;
   position: relative;
   top: -10px;
 }
 
 footer a:hover{
-  color: crimson;
-  text-decoration: underline;
+  color: whitesmoke;
 }
 
 
-/*Video */
 
-div#video p {
-  text-align: center;
-}
-p#titulo-video{
-  text-align: center;
-  font-size: 15pt;
-  padding: 5px;
-}
+/*MODAL*/
 h5#modaltitulo{
   text-decoration: none;
   color: black;
@@ -222,10 +163,7 @@ button#button2{
 button#button3{
   margin-left: 3px;
 }
-h1{
-    text-align: center;
- 
-}
+
 input#comentario{
     margin-left: 400px;
     padding-bottom: 100px;
