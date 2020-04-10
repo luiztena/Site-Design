@@ -187,13 +187,8 @@ figure#fotolegenda h3 {
   color: black;
 }
 
-img#img2{
-  width: 1080px;
-  padding-top: 20px;
-}
-img#img1{
-  width: 1080px;
-}
+
+
 /*Rodapé*/
 footer#rodape{
   background-color: #333;
@@ -266,136 +261,7 @@ ul#album-fotos li{
   box-shadow: 1px 1px 3px rgba(255, 255, 255, 0.5);
   transition: all .5s ease-out;
 }
-/*imagens*/
-ul#album-fotos li#foto01 {
-  background: url('img/background.jpg') no-repeat;
-  background-position: 50% 50%;
-  background-color: #333;
-  background-size: 1920px 1200px;
-}
 
-ul#album-fotos li#foto02 {
-  background: url('img/home.jpg') no-repeat;
-  background-position: 50% 50%;
-  background-color: #333;
-  background-size: 1280px 720px;
-}
-ul#album-fotos li#foto03 {
-  background: url('img/purple2.jpg') no-repeat;
-  background-position: 50% 50%;
-  background-color: #333;
-  background-size: 640px 853px;
-}
-ul#album-fotos li#foto04 {
-  background: url('img/perfect.jpg') no-repeat;
-  background-position: 50% 50%;
-  background-color: #333;
-  background-size: 640px 640px;
-}
-ul#album-fotos li#foto05 {
-  background: url('img/SMoon.jpg') no-repeat;
-  background-position: 50% 50%;
-  background-color: #333;
-  background-size: 697px 537px;
-}
-ul#album-fotos li#foto06 {
-  background: url('img/tokyo2.jpg') no-repeat;
-  background-position: 50% 50%;
-  background-color: #333;
-  background-size: 1820px 1226px;
-}
-ul#album-fotos li#foto07 {
-  background: url('img/rua.jpg') no-repeat;
-  background-position: 50% 50%;
-  background-color: #333;
-  background-size: 1400px 933px;
-}
-ul#album-fotos li#foto08 {
-  background: url('img/amanhecer.jpg') no-repeat;
-  background-position: 50% 50%;
-  background-color: #333;
-  background-size: 1820px 720px ;
-}
-ul#album-fotos li#foto09 {
-  background: url('img/monica.jpg') no-repeat;
-  background-position: 50% 50%;
-  background-color: #333;
-  background-size: 1920px 1080px;
-}
-ul#album-fotos li#foto10 {
-  background: url('img/SMoon\ 2.jpg') no-repeat;
-  background-position: 50% 50%;
-  background-color: #333;
-  background-size: 540px 400px;
-}
-/*Efeito*/
-
-ul#album-fotos li#foto01:hover{
-background-position: 0px 0px;
-background-size: 200px 200px;
-}
-
-ul#album-fotos li#foto02:hover{
-  background-position: 0px 0px;
-  background-size: 200px 200px;
-}
-
-ul#album-fotos li#foto03:hover{
-  background-position: 0px 0px;
-  background-size: 200px 200px;
-}
-
-ul#album-fotos li#foto04:hover{
-  background-position: 0px 0px;
-  background-size: 200px 200px;
-}
-
-ul#album-fotos li#foto05:hover{
-  background-position: 0px 0px;
-  background-size: 200px 200px;
-}
-
-ul#album-fotos li#foto06:hover{
-  background-position: 0px 0px;
-  background-size: 200px 200px;
-}
-
-ul#album-fotos li#foto07:hover{
-  background-position: 0px 0px;
-  background-size: 200px 200px;
-}
-
-ul#album-fotos li#foto08:hover{
-  background-position: 0px 0px;
-  background-size: 200px 200px;
-}
-
-ul#album-fotos li#foto09:hover{
-  background-position: 0px 0px;
-  background-size: 200px 200px;
-}
-
-ul#album-fotos li#foto10:hover{
-  background-position: 0px 0px;
-  background-size: 200px 200px;
-}
-/*Efeito 2 */
-ul#album-fotos li:hover{
-  transform: scale(1.5);
-  transition: all 1s ease-in;
-}
-/*legenda*/
-ul#album-fotos li span {
-opacity: 0;
-color: whitesmoke;
-text-shadow: 2px 2px 2px black;
-
-
-padding: 5px;
-}
-ul#album-fotos li:hover span{
-  opacity: 1;
-}
 
 div#video p {
   text-align: center;
@@ -417,88 +283,14 @@ div#texto1 {
   float: left;
 
 }
-div img#gif{
-  width: 100px;
-  float: left;
 
-}
-img#img2{
-  width: 200px; 
-  float: right;
-}
 p#texto2 {
   display: table-cell;
   float: left;
   padding-left: 90px;
   
 }
-/*CLICK ME*/
 
-ul#click{
-  transform: translate(-50%,-50%); 
-  display: flex; 
-  margin-left: 100px;
-
-}
-
-ul#click li {
-  list-style: none;
-  color: white;
-  font-family: 'pixel';
-  font-size: 15pt;
-  letter-spacing: 15px;
-  animation: animate 1.4s linear infinite;
-}
-@keyframes animate{
-  0%{
-     color: white;
-     text-shadow: none;
-  }
-  50% {
-    color: white;
-    text-shadow: none;
-  }
-  100%{
-    color: violet;
-    text-shadow: 0 0 7px plum, 0 0 50px palevioletred;
-  }
-}
-ul#click li:nth-child(1)
-{
-  animation-delay: .2s;
-}
-ul#click li:nth-child(2)
-{
-  animation-delay: .4s;
-}
-ul#click li:nth-child(3)
-{
-  animation-delay: .6s;
-}
-ul#click li:nth-child(4)
-{
-  animation-delay: .8s;
-}
-ul#click li:nth-child(5)
-{
-  animation-delay: 1s;
-}
-
-
-
-div#clickme{
-
-  display: flex;
-  margin-left: 550px;
-  margin-right: 550px;
-  padding-top: 50px;
-  padding-left: -30px;
-  border-style: double;
-  border-width: 10px;
-  border-color: rgb(216, 112, 150);
-  cursor: pointer;
-  
-}
 p#plink a#link {
   color: violet;
   text-shadow: 1px 1px 10px black;
@@ -509,6 +301,25 @@ p#plink{
   font-size: 15pt;
   font-family: 'titulo';
 }
+
+div a#clickmelink {
+text-decoration: none;
+}
+/*Imagens*/
+
+img#Macintosh{
+  width: 1080px;
+}
+
+div img#sad{
+  width: 100px;
+  float: left;
+  
+}
+img#cube{
+  width: 200px; 
+  float: right;
+}
 img#img4{
   width: 300px;
   height: 300px;
@@ -518,6 +329,10 @@ img#img5{
   height: 300px;
   margin-top: -55px;
 }
-div a#clickmelink {
-text-decoration: none;
+
+img#vektroid{
+  margin-left: 150px;
+  width: 1000px;
+  padding-left: 60px;
+  height: 500px;
 }
