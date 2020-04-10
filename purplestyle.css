@@ -179,17 +179,17 @@ footer#rodape{
 }
 
 footer a {
-  color: #9400d3;
+  color: #cc5dff;
   text-decoration: none;
   position: relative;
   top: -10px;
 }
 
 footer a:hover{
-  color: crimson;
-  text-decoration: underline;
-}
+  color: #ff5dae;
 
+}
+/*MODAL*/
 h5#modaltitulo{
   text-decoration: none;
   color: black;
@@ -204,7 +204,7 @@ h5#modaltitulo{
   box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.5);
   margin-left: 15px;
 }
-
+/*Formulario*/
 a#formulariop{
   text-decoration: none;
 }
@@ -248,62 +248,63 @@ ul#album-fotos li#foto01 {
   background: url('img/background.jpg') no-repeat;
   background-position: 50% 50%;
   background-color: #333;
-  background-size: 1920px 1200px;
+  background-size: cover;
+  
 }
 
 ul#album-fotos li#foto02 {
   background: url('img/home.jpg') no-repeat;
   background-position: 50% 50%;
   background-color: #333;
-  background-size: 1280px 720px;
+  background-size: cover;
 }
 ul#album-fotos li#foto03 {
   background: url('img/purple2.jpg') no-repeat;
   background-position: 50% 50%;
   background-color: #333;
-  background-size: 640px 853px;
+  background-size: cover;
 }
 ul#album-fotos li#foto04 {
   background: url('img/perfect.jpg') no-repeat;
   background-position: 50% 50%;
   background-color: #333;
-  background-size: 640px 640px;
+  background-size: cover;
 }
 ul#album-fotos li#foto05 {
   background: url('img/SMoon.jpg') no-repeat;
   background-position: 50% 50%;
   background-color: #333;
-  background-size: 697px 537px;
+  background-size: cover;
 }
 ul#album-fotos li#foto06 {
   background: url('img/tokyo2.jpg') no-repeat;
   background-position: 50% 50%;
   background-color: #333;
-  background-size: 1820px 1226px;
+  background-size: cover;
 }
 ul#album-fotos li#foto07 {
   background: url('img/rua.jpg') no-repeat;
   background-position: 50% 50%;
   background-color: #333;
-  background-size: 1400px 933px;
+  background-size: cover;
 }
 ul#album-fotos li#foto08 {
   background: url('img/amanhecer.jpg') no-repeat;
   background-position: 50% 50%;
   background-color: #333;
-  background-size: 1820px 720px ;
+  background-size: cover;
 }
 ul#album-fotos li#foto09 {
   background: url('img/monica.jpg') no-repeat;
   background-position: 50% 50%;
   background-color: #333;
-  background-size: 1920px 1080px;
+  background-size: cover;
 }
 ul#album-fotos li#foto10 {
   background: url('img/SMoon\ 2.jpg') no-repeat;
   background-position: 50% 50%;
   background-color: #333;
-  background-size: 540px 400px;
+  background-size: cover;
 }
 /*Efeito*/
 
